@@ -2,9 +2,9 @@ import random
 
 class Insect:
 
-    def __init__(self):
-        self.legs = 4
-        self.wings = 2
+    def __init__(self,w,l):
+        self.legs = l
+        self.wings = w
         self.distance = 0
 
     def fly(self):
